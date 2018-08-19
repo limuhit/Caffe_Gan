@@ -1,0 +1,13 @@
+net: "./gan.prototxt"
+base_lr: 0.00005
+momentum: 0.0
+weight_decay: 0.0005
+# The learning rate policy
+lr_policy: "fixed"
+display: 100
+max_iter: 10000
+snapshot: 10000
+snapshot_prefix: "./model/gan_"
+solver_mode: GPU
+type: "RMSProp"
+rms_decay: 0.98
