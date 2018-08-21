@@ -1,0 +1,2 @@
+The needed initialization model "pre_iter_2000.caffemodel" and the vgg_face model "vgg_face_trans.caffemodel" are too large for Github.
+Please find them at https://drive.google.com/drive/folders/15H_-wvESJvzGPi5WlapSmCCW0AbimFst?usp=sharing
