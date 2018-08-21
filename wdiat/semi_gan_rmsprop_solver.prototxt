@@ -1,0 +1,12 @@
+net: "./test_vgg_id.prototxt"
+base_lr: 0.00005
+momentum: 0.0
+weight_decay: 0.0005
+lr_policy: "fixed"
+display: 100
+max_iter: 10000
+snapshot: 10000
+snapshot_prefix: "./model/semi"
+solver_mode: GPU
+type: "RMSProp"
+rms_decay: 0.98
